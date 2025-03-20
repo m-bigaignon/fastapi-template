@@ -21,7 +21,3 @@ RUN --mount=type=cache,target=/root/.cache/uv \
   uv sync --frozen
 
 CMD ["fastapi", "run", "app/main.py"]
-
-
-
-
